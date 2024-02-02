@@ -2,7 +2,7 @@
 
 ## Description
 
-CV/resume website is a single-page application project developed using React, redux/toolkit, react-router-dom, vite, Yup for form validation, Formik for the contact form, classNames for styling, Sass for CSS preprocessing and Lucide-React for icons. The website also features a dark mode theme implemented using redus/toolkit.
+CV/resume website is a single-page application project developed using React, redux/toolkit, react-router-dom, vite, Yup for form validation, Formik for the contact form, classNames for styling, Sass for CSS preprocessing and Lucide-React for icons. The website also features a dark mode theme implemented using redux/toolkit.
 
 ## Table of Contents
 
@@ -40,7 +40,7 @@ Components of the project:
 -   **Home** : Landing page, displaying **AboutMe** and **Skills**.
 -   **AboutMe** : Component displaying information about you.
 -   **Skills** : Component highlighting your skills and Competencies.
--   **Avatar** : Component displaying, image if provided, name initials if there isn't any url and just **user** icon if there aren't url/name.
+-   **Avatar** : Component displaying, image if provided, name initials if there isn't any url and just **user** icon if there isn't any url/name.
 -   **Projects** : Component showcasing your **Github** repositories.
 -   **ContactForm** : Allows visitors to contact you directly through the website using Formik for the contact form and Yup for form validation.
 -   **PersonalInformation** : Displaying name, age and address.
