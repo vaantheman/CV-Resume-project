@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .themeSwitcher {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.contactInfoContainer {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 4px;
+    background: #333;
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+        background: #555;
+    }
+
+    &.dark {
+        background: #fff;
+        color: #333;
+
+        &:hover {
+            background: darken(#fff, 20%);
+        }
+    }
+}

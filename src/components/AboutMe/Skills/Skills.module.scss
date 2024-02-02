@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+    .list {
+        border: 1px solid #ccc;
+        width: 52%;
+        height: 250px;
+        display: flex;
+        flex-flow: column wrap;
+        box-sizing: border-box;
+        padding: 2rem;
+    }
+}

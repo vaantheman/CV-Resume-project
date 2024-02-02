@@ -1,0 +1,53 @@
+.contactFormContainer {
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: auto;
+    width: 40vmin;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+    margin-top: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 5px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2rem;
+
+    &:hover {
+        background: #6666;
+    }
+    &.dark {
+        background: #fff;
+        color: #333;
+
+        &:hover {
+            background: darken(#fff, 20%);
+        }
+    }
+}
